@@ -1,8 +1,13 @@
 {
   "name": "deepwiki",
+  "version": "0.1.0",
   "description": "DeepWiki MCP integration for AI-powered GitHub repository documentation",
   "author": {
     "name": "Ian Macalinao",
     "email": "ian@macalinao.com"
-  }
+  },
+  "homepage": "https://github.com/macalinao/claude-plugins/tree/master/deepwiki",
+  "repository": "https://github.com/macalinao/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["deepwiki", "mcp", "documentation", "github"]
 }

@@ -1,8 +1,13 @@
 {
   "name": "igm",
+  "version": "0.1.0",
   "description": "Personal Claude Code plugin with coding agents and commands",
   "author": {
     "name": "Ian Macalinao",
     "email": "ian@macalinao.com"
-  }
+  },
+  "homepage": "https://github.com/macalinao/claude-plugins/tree/master/igm",
+  "repository": "https://github.com/macalinao/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["typescript", "react", "coding-agents", "development"]
 }
