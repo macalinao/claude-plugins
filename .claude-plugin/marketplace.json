@@ -2,7 +2,8 @@
   "name": "igm-claude-plugins",
   "description": "A collection of Claude Code plugins for coding agents, documentation, and notifications",
   "owner": {
-    "name": "Ian Macalinao"
+    "name": "Ian Macalinao",
+    "email": "me@ianm.com"
   },
   "plugins": [
     {
