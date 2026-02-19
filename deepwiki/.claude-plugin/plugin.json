@@ -1,0 +1,8 @@
+{
+  "name": "deepwiki",
+  "description": "DeepWiki MCP integration for AI-powered GitHub repository documentation",
+  "author": {
+    "name": "Ian Macalinao",
+    "email": "ian@macalinao.com"
+  }
+}
