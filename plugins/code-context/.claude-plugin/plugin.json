@@ -4,7 +4,7 @@
   "description": "MCP integrations for AI-powered code and repository documentation",
   "author": {
     "name": "Ian Macalinao",
-    "email": "ian@macalinao.com"
+    "email": "me@ianm.com"
   },
   "homepage": "https://github.com/macalinao/claude-plugins/tree/master/plugins/code-context",
   "repository": "https://github.com/macalinao/claude-plugins",

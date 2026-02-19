@@ -1,5 +1,6 @@
 {
   "name": "igm-claude-plugins",
+  "description": "A collection of Claude Code plugins for coding agents, documentation, and notifications",
   "owner": {
     "name": "Ian Macalinao"
   },
@@ -13,6 +14,11 @@
       "name": "code-context",
       "source": "./plugins/code-context",
       "description": "MCP integrations for AI-powered code and repository documentation"
+    },
+    {
+      "name": "notifykit",
+      "source": "./plugins/notifykit",
+      "description": "macOS notifications for Claude Code using notifykit"
     }
   ]
 }

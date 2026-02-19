@@ -1,0 +1,13 @@
+{
+  "name": "notifykit",
+  "version": "0.1.0",
+  "description": "macOS notifications for Claude Code using notifykit",
+  "author": {
+    "name": "Ian Macalinao",
+    "email": "me@ianm.com"
+  },
+  "homepage": "https://github.com/macalinao/claude-plugins/tree/master/plugins/notifykit",
+  "repository": "https://github.com/macalinao/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": ["notifications", "macos", "notifykit", "hooks"]
+}

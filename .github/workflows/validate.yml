@@ -22,17 +22,20 @@ jobs:
       - name: Validate root plugin
         run: claude plugin validate .
 
-      - name: Validate igm
-        run: claude plugin validate ./igm
-
-      - name: Validate deepwiki
-        run: claude plugin validate ./deepwiki
+      - name: Validate all plugins
+        run: |
+          for dir in ./plugins/*/; do
+            echo "Validating $dir..."
+            claude plugin validate "$dir"
+          done
 
       - name: Add marketplace
         run: claude plugin marketplace add $(pwd)/
 
-      - name: Install igm
-        run: claude plugin install igm@igm-claude-plugins
-
-      - name: Install deepwiki
-        run: claude plugin install deepwiki@igm-claude-plugins
+      - name: Install all plugins
+        run: |
+          for dir in ./plugins/*/; do
+            name=$(basename "$dir")
+            echo "Installing $name..."
+            claude plugin install "$name@igm-claude-plugins"
+          done
