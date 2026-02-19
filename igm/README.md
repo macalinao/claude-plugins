@@ -54,5 +54,5 @@ Runs TypeScript and lint checks, fixing all errors automatically.
 
 ```bash
 claude plugin marketplace add macalinao/claude-plugins
-claude plugin install igm@igm-plugins
+claude plugin install igm@igm-claude-plugins
 ```

@@ -23,7 +23,7 @@ Personal Claude Code plugin with coding agents and commands.
 
 ```bash
 claude plugin marketplace add macalinao/claude-plugins
-claude plugin install igm@igm-plugins
+claude plugin install igm@igm-claude-plugins
 ```
 
 ### deepwiki
@@ -34,5 +34,5 @@ DeepWiki MCP integration for AI-powered GitHub repository documentation.
 
 ```bash
 claude plugin marketplace add macalinao/claude-plugins
-claude plugin install deepwiki@igm-plugins
+claude plugin install deepwiki@igm-claude-plugins
 ```

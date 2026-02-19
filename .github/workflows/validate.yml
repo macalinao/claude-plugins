@@ -32,7 +32,7 @@ jobs:
         run: claude plugin marketplace add $(pwd)/
 
       - name: Install igm
-        run: claude plugin install igm@igm-plugins
+        run: claude plugin install igm@igm-claude-plugins
 
       - name: Install deepwiki
-        run: claude plugin install deepwiki@igm-plugins
+        run: claude plugin install deepwiki@igm-claude-plugins

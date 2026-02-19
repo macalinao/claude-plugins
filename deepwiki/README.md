@@ -14,5 +14,5 @@ Provides access to [DeepWiki](https://deepwiki.com) tools for exploring and quer
 
 ```bash
 claude plugin marketplace add macalinao/claude-plugins
-claude plugin install deepwiki@igm-plugins
+claude plugin install deepwiki@igm-claude-plugins
 ```

@@ -5,13 +5,6 @@
 
   git-hooks.hooks = {
     nixfmt.enable = true;
-    prettier = {
-      enable = true;
-      types_or = [
-        "json"
-        "markdown"
-        "yaml"
-      ];
-    };
+    prettier.enable = true;
   };
 }
