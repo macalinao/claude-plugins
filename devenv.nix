@@ -4,7 +4,7 @@
   packages = with pkgs; [ git ];
 
   git-hooks.hooks = {
-    nixfmt-rfc-style.enable = true;
+    nixfmt.enable = true;
     prettier = {
       enable = true;
       types_or = [
