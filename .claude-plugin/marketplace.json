@@ -6,13 +6,13 @@
   "plugins": [
     {
       "name": "igm",
-      "source": "./igm",
+      "source": "./plugins/igm",
       "description": "Personal Claude Code plugin with coding agents and commands"
     },
     {
-      "name": "deepwiki",
-      "source": "./deepwiki",
-      "description": "DeepWiki MCP integration for AI-powered GitHub repository documentation"
+      "name": "code-context",
+      "source": "./plugins/code-context",
+      "description": "MCP integrations for AI-powered code and repository documentation"
     }
   ]
 }
