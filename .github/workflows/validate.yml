@@ -22,11 +22,17 @@ jobs:
       - name: Validate root plugin
         run: claude plugin validate .
 
-      - name: Validate igm-plugin
-        run: claude plugin validate ./igm-plugin
+      - name: Validate igm
+        run: claude plugin validate ./igm
+
+      - name: Validate deepwiki
+        run: claude plugin validate ./deepwiki
 
       - name: Add marketplace
         run: claude plugin marketplace add $(pwd)/
 
-      - name: Install igm-plugin
+      - name: Install igm
         run: claude plugin install igm@igm-plugins
+
+      - name: Install deepwiki
+        run: claude plugin install deepwiki@igm-plugins

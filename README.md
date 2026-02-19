@@ -1,60 +1,38 @@
-# igm Claude Plugin
+# macalinao/claude-plugins
+
+A collection of Claude Code plugins.
+
+## Plugins
+
+### igm
 
 Personal Claude Code plugin with coding agents and commands.
 
-## Skills
+#### Skills
 
-### react-stack-engineer
+- **react-stack-engineer** — Expert React agent (TypeScript, Vite, Tailwind v4, React Query, ShadCN, Zod, Bun)
+- **typescript-stack-engineer** — Expert TypeScript agent for non-React code (strict mode, Bun, Zod, one function per file, kebab-case)
+- **check-and-fix** — Runs TypeScript checks and linting, automatically fixing all errors
 
-Expert React agent for writing, reviewing, and refactoring React code with:
+#### Commands
 
-- React + TypeScript + Vite
-- Tailwind CSS v4
-- React Query (TanStack Query)
-- ShadCN components
-- Zod validation
-- Bun package manager
+- **/commit-push-pr** — Commits all changes, pushes, and creates a pull request
+- **/check-and-fix** — Runs TypeScript and lint checks, fixing all errors automatically
 
-### typescript-stack-engineer
-
-Expert TypeScript agent for non-React code with:
-
-- TypeScript strict mode
-- Bun runtime and test runner
-- Zod validation
-- One function per file pattern
-- Kebab-case file naming
-
-### check-and-fix
-
-Runs TypeScript checks and linting, automatically fixing all errors:
-
-- Runs `bun run typecheck` and `bun run lint:fix`
-- Fixes remaining errors manually
-- Verifies all tests pass
-
-## Commands
-
-### /commit-push-pr
-
-Commits all changes, pushes, and creates a pull request. Automatically:
-
-- Detects if on main/master branch
-- Creates feature branches when needed
-- Reuses existing PRs when possible
-
-### /check-and-fix
-
-Runs TypeScript and lint checks, fixing all errors automatically.
-
-## Installation
+#### Installation
 
 ```bash
-# Add the marketplace
-claude plugin marketplace add macalinao/claude-plugin
-
-# Install the plugin
+claude plugin marketplace add macalinao/claude-plugins
 claude plugin install igm@igm-plugins
 ```
 
-Then restart Claude Code for changes to take effect.
+### deepwiki
+
+DeepWiki MCP integration for AI-powered GitHub repository documentation.
+
+#### Installation
+
+```bash
+claude plugin marketplace add macalinao/claude-plugins
+claude plugin install deepwiki@igm-plugins
+```

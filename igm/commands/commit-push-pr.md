@@ -9,7 +9,6 @@ description: Commit all changes, create a new branch, push, and create a pull re
 Create a pull request with all current changes. Follow these steps:
 
 1. First, run these commands in parallel to understand the current state:
-
    - `git status` to see all changes
    - `git diff --staged` and `git diff` to see what will be committed
    - `git log -5 --oneline` to see recent commit style
@@ -19,13 +18,11 @@ Create a pull request with all current changes. Follow these steps:
 2. Stage all changes with `git add -A`
 
 3. Create a meaningful commit message based on the changes:
-
    - Summarize what was changed
    - Use conventional commit style if appropriate (feat:, fix:, chore:, etc.)
    - End with the standard Claude Code footer
 
 4. If on the main branch (main or master), create a new branch:
-
    - Generate a good branch name based on the changes
    - Use kebab-case
    - Be descriptive but concise (e.g., `feat/add-user-auth`, `fix/login-validation`)
@@ -48,7 +45,6 @@ Create a pull request with all current changes. Follow these steps:
 6. Push the branch: `git push -u origin <branch-name>`
 
 7. Check if a PR already exists for this branch (from step 1):
-
    - If a PR already exists and is open, skip PR creation and return the existing PR URL
    - If no PR exists, create one using `gh pr create`:
 
