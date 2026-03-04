@@ -1,4 +1,5 @@
 ---
+name: check-and-fix
 allowed-tools:
   - Task
 description: Run TypeScript checks and fix all errors (project)

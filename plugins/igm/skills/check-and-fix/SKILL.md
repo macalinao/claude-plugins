@@ -2,7 +2,12 @@
 name: check-and-fix
 description: Run TypeScript checks and fix all errors (project)
 model: sonnet
-tools: Bash, Edit, Read, Glob, Grep
+allowed-tools:
+  - Bash
+  - Edit
+  - Read
+  - Glob
+  - Grep
 ---
 
 Run the following commands in parallel to identify and fix errors:
