@@ -1,0 +1,20 @@
+{
+  "name": "peekaboo",
+  "version": "0.1.0",
+  "description": "macOS screen capture and GUI automation via the Peekaboo MCP server",
+  "author": {
+    "name": "Ian Macalinao",
+    "email": "me@ianm.com"
+  },
+  "homepage": "https://github.com/macalinao/claude-plugins/tree/master/plugins/peekaboo",
+  "repository": "https://github.com/macalinao/claude-plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "macos",
+    "screenshot",
+    "gui-automation",
+    "screen-capture",
+    "peekaboo",
+    "mcp"
+  ]
+}

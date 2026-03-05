@@ -1,4 +1,5 @@
 ---
+name: commit-push-yolo
 allowed-tools:
   - Bash
   - Read

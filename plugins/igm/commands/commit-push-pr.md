@@ -1,4 +1,5 @@
 ---
+name: commit-push-pr
 allowed-tools:
   - Bash
   - Read
