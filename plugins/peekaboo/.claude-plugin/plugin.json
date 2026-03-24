@@ -9,12 +9,5 @@
   "homepage": "https://github.com/macalinao/claude-plugins/tree/master/plugins/peekaboo",
   "repository": "https://github.com/macalinao/claude-plugins",
   "license": "Apache-2.0",
-  "keywords": [
-    "macos",
-    "screenshot",
-    "gui-automation",
-    "screen-capture",
-    "peekaboo",
-    "mcp"
-  ]
+  "keywords": ["macos", "screenshot", "gui-automation", "screen-capture", "peekaboo", "mcp"]
 }

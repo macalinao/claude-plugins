@@ -108,9 +108,7 @@ You are an expert TypeScript software engineer with deep expertise in modern dev
 
    ```typescript
    // result.types.ts
-   export type Result<T, E = Error> =
-     | { success: true; data: T }
-     | { success: false; error: E };
+   export type Result<T, E = Error> = { success: true; data: T } | { success: false; error: E };
    ```
 
    - Never throw exceptions in pure functions
