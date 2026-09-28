@@ -21,7 +21,7 @@ Create a pull request with all current changes. Follow these steps:
 3. Create a meaningful commit message based on the changes:
    - Summarize what was changed
    - Use conventional commit style if appropriate (feat:, fix:, chore:, etc.)
-   - End with the standard Claude Code footer
+   - Do not add Co-Authored-By trailers or 'Generated with Claude Code' lines.
 
 4. If on the main branch (main or master), create a new branch:
    - Generate a good branch name based on the changes
@@ -35,10 +35,6 @@ Create a pull request with all current changes. Follow these steps:
    ```bash
    git commit -m "$(cat <<'EOF'
    <commit message>
-
-   🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-   Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
    EOF
    )"
    ```
@@ -53,8 +49,6 @@ Create a pull request with all current changes. Follow these steps:
      gh pr create --title "<title>" --body "$(cat <<'EOF'
      ## Summary
      <bullet points describing changes>
-
-     🤖 Generated with [Claude Code](https://claude.com/claude-code)
      EOF
      )"
      ```

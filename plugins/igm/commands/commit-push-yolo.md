@@ -21,10 +21,6 @@ Commit and push all changes to the current branch. Follow these steps:
    ```bash
    git commit -m "$(cat <<'EOF'
    <commit message>
-
-   🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-   Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>
    EOF
    )"
    ```
@@ -36,3 +32,4 @@ Important:
 - Do NOT commit files that look like secrets (.env, credentials, etc.)
 - Use conventional commit style if appropriate (feat:, fix:, chore:, etc.)
 - Keep the commit message concise but descriptive
+- Do not add Co-Authored-By trailers or 'Generated with Claude Code' lines.
