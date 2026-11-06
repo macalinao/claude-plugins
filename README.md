@@ -36,3 +36,7 @@ DeepWiki MCP integration for AI-powered GitHub repository documentation.
 claude plugin marketplace add macalinao/claude-plugins
 claude plugin install deepwiki@igm-claude-plugins
 ```
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE).
